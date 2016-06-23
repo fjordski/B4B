@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title Page</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!---ICONS--->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <!---NORMALIZE--->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css">
+    <!---BOOTSTRAP--->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <!---STYLESHEETS--->
+    <link rel="stylesheet" href="css/responsive-nav.css">
+    <script src="js/responsive-nav.js"></script>
+    <link rel='stylesheet' href="css/styles.css">
+    <script>
+        jQuery(document).ready(function ($) {
+            $('.counter').counterUp({
+                delay: 10
+                , time: 1000
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <!---HOME--->
+    <div id="home" class="container-fluid section-one">
+        <!---NAVIGATION--->
+        <nav class="nav-collapse">
+            <ul>
+                <li><a href="#home">Bruins 4 Bruins</a></li>
+                <li><a href="#gift">How Your Gift Helps</a></li>
+                <li><a href="#student">Student Testimonials</a></li>
+                <li><a href="#give">Give</a></li>
+            </ul>
+        </nav>
+        <!---END OF NAV--->
+
+        <div class="container">
+            <img src="img/b4b-logo.png" id="bruin" class="img-fluid center-block">
+            <h1 class="text-xs-center m-t-3"><span style="display: inline-block; width: 32%"><span>$</span><span class="counter">161,274</span></span>
+            <p>With your support, we surpassed our $125,000 goal. We appreciate the generosity of Bruins like you.</p>
+
+
+            <!---<img id="people" src="img/people-illustration.png" class="img-fluid center-block bruin">-->
+        </div>
+    </div>
+
+    <!---ABOUT--->
+    <div id="gift" class="container-fluid section-two">
+        <div class="container">
+            <h1 class="text-xs-center p-t-3" style="color: #dd1a32">Join Bruins Everywhere!</h1>
+            <p class="text-xs-center">Officially beginning on March 3, Bruins4Bruins is the University’s spring
+                <br>fundraising initiative to raise $75,000 to support Belmont students.
+                <br>Give to the Annual Fund or your area of choice and have an
+                <br>immediate impact on current and future Bruins.</p>
+        </div>
+        <div id="outer">
+            <div id="video-div">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/ntp8U1PNfKg?list=PLs5UR2eZzZcIZoOkeFDVczBLIQIhYj-6i" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <!---STUDENT--->
+    <div id="student" class="container-fluid section-three">
+
+
+
+
+
+    </div>
+
+    <!---GIVE--->
+    <div id="give" class="container-fluid section-four">
+        <button class="btn btn-outlined btn-primary center-block">GIVE NOW</button>
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+    <script>
+        //NAV COLLAPSE
+        var nav = responsiveNav(".nav-collapse");
+    </script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script>
+        //SMOOTH SCROLL
+        $(function () {
+            $('a[href*="#"]:not([href="#"])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
