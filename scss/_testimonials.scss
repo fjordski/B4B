@@ -1,0 +1,54 @@
+$font-color: white;
+$primary: #0d2d6c;
+$secondary: #1d4487;
+$tertiary: #dd1a32;
+.testimonials blockquote {
+    background: $secondary none repeat scroll 0 0;
+    border: medium none;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 15px;
+    position: relative;
+}
+
+.testimonials blockquote::before {
+    width: 0;
+    height: 0;
+    right: 0;
+    bottom: 0;
+    content: " ";
+    display: block;
+    position: absolute;
+    border-bottom: 20px solid transparent;
+    border-right: 0 solid transparent;
+    border-left: 15px solid transparent;
+    border-left-style: inset;
+    border-bottom-style: inset;
+}
+
+.testimonials .carousel-info img {
+    border-radius: 150px !important;
+    height: 75px;
+    padding: 3px;
+    width: 75px;
+}
+
+.testimonials .carousel-info {
+    overflow: hidden;
+}
+
+.testimonials .carousel-info img {
+    margin-right: 15px;
+}
+
+.testimonials .carousel-info span {
+    display: block;
+}
+
+.testimonials span.testimonials-name {
+    color: $primary;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 23px 0 7px;
+}

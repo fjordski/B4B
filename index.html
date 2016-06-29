@@ -1,31 +1,31 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
+
+<!--Hope you guys like it! Ford-->
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Title Page</title>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <meta name="description" content="Bruins 4 Bruins is an annual spring fundraising initiative to raise 75000.">
+    <meta property="og:title" content="Bruins 4 Bruins">
+    <meta property="og:image" content="link_to_image">
+    <meta property="og:description" content="Bruins 4 Bruins is an annual spring fundraising initiative to raise 75000.">
+    <title>Bruins 4 Bruins</title>
+    <!---JQUERY--->
+    <script src="js/jquery-3.0.0.min.js"></script>
     <!---ICONS--->
+    <link rel="shortcut icon" type="image/png" href="/img/cropped-favicon-1.png" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <!---FONTS--->
+    <link href="https://fonts.googleapis.com/css?family=Contrail+One" rel="stylesheet">
     <!---NORMALIZE--->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css">
     <!---BOOTSTRAP--->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
     <!---STYLESHEETS--->
     <link rel="stylesheet" href="css/responsive-nav.css">
-    <script src="js/responsive-nav.js"></script>
     <link rel='stylesheet' href="css/styles.css">
-    <script>
-        jQuery(document).ready(function ($) {
-            $('.counter').counterUp({
-                delay: 10
-                , time: 1000
-            });
-        });
-    </script>
 </head>
 
 <body>
@@ -34,91 +34,227 @@
         <!---NAVIGATION--->
         <nav class="nav-collapse">
             <ul>
-                <li><a href="#home">Bruins 4 Bruins</a></li>
+                <li><a href="#join">Bruins 4 Bruins</a></li>
                 <li><a href="#gift">How Your Gift Helps</a></li>
                 <li><a href="#student">Student Testimonials</a></li>
                 <li><a href="#give">Give</a></li>
             </ul>
         </nav>
         <!---END OF NAV--->
-
         <div class="container">
-            <img src="img/b4b-logo.png" id="bruin" class="img-fluid center-block">
-            <h1 class="text-xs-center m-t-3"><span style="display: inline-block; width: 32%"><span>$</span><span class="counter">161,274</span></span>
-            <p>With your support, we surpassed our $125,000 goal. We appreciate the generosity of Bruins like you.</p>
-
-
-            <!---<img id="people" src="img/people-illustration.png" class="img-fluid center-block bruin">-->
-        </div>
-    </div>
-
-    <!---ABOUT--->
-    <div id="gift" class="container-fluid section-two">
-        <div class="container">
-            <h1 class="text-xs-center p-t-3" style="color: #dd1a32">Join Bruins Everywhere!</h1>
-            <p class="text-xs-center">Officially beginning on March 3, Bruins4Bruins is the University’s spring
-                <br>fundraising initiative to raise $75,000 to support Belmont students.
-                <br>Give to the Annual Fund or your area of choice and have an
-                <br>immediate impact on current and future Bruins.</p>
-        </div>
-        <div id="outer">
-            <div id="video-div">
-                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/ntp8U1PNfKg?list=PLs5UR2eZzZcIZoOkeFDVczBLIQIhYj-6i" frameborder="0" allowfullscreen></iframe>
+            <img src="img/b4b-logo.png" alt="Bruins 4 Bruins" id="bruin" class="img-fluid center-block">
+            <h4 class="p-t-3 text-xs-center" style="line-height: 1.3em;"><strong>#Bruins<span style="color: #dd1a32;">4</span>Bruins</strong> is an annual spring fundraising initiative to raise <span style="color: red; font-family: 'Contrail One', sans-serif;">$</span><span class="timer count-title" id="count-number" data-to="75000" data-speed="2500" style="color: red; font-family: 'Contrail One', sans-serif;"></span></h4>
+            <p id="opener" class="m-t-2">With your gift, you can become part of a very important group of alumni, parents and friends who share their resources to ensure an outstanding educational experience for all Belmont students.</p>
+            <div class="divider m-t-3"></div>
+            <div class="container people-contain">
+                <img id="people" alt="People Illustration" src="img/people-illustration.png" class="img-fluid m-t-3">
             </div>
         </div>
-
-
-
     </div>
-
-    <!---STUDENT--->
-    <div id="student" class="container-fluid section-three">
-
-
-
-
-
+    <!---VIDEO--->
+    <div id="join" class="container-fluid section-two">
+        <div class="container">
+            <h1 class="text-xs-center p-t-3">Join Bruins Everywhere!</h1>
+        </div>
+        <div class="container youtube m-t-3">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ntp8U1PNfKg?list=PLs5UR2eZzZcIZoOkeFDVczBLIQIhYj-6i" allowfullscreen></iframe>
+            </div>
+        </div>
+        <!---END OF YOUTUBE--->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-1 col-md-10 col-md-offset-1 col-xs-12 m-t-3 m-b-2">
+                    <p class="text-xs-center">It's coming! <strong><u>March 8th-14th</u></strong> join fellow Alumni, Parents, and Friends of Belmont University by participating in the <strong>Bruins4Bruins</strong> Annual Giving Campaign. You can provide funding to enhance the student experience.</p>
+                    <p class="text-xs-center">Show your support and encourage others to join the movement to invest in the quality of education at Belmont.</p>
+                    <h1 class="text-xs-center">#Bruins<span style="color:lightgrey">4</span>Bruins</h1>
+                    <a href="https://form.jotform.com/60466441853155" target="_blank" class="btn btn-outlined btn-primary center-block m-t-2" style="width: 120px;">GIVE NOW
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
+    <!---ABOUT THE FUND--->
+    <div id="gift" class="container-fluid section-three">
+        <h1 class="text-xs-center p-t-3 p-b-1">About The Annual Fund</h1>
 
+        <p class="m-b-0 text-xs-center">Support from donors like you provides students with the opportunities they need to succeed during their time here at the University.</p>
+
+        <h4 id="your-gift" class="text-xs-center m-t-1">Your gift to the Annual Fund:</h4>
+
+        <div class="row center-block p-t-3 p-b-3" style="max-width: 80%;">
+            <div class="col-md-3 col-sm-6 text-xs-center">
+                <div class="service-item">
+                    <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-lightbulb-o fa-stack-1x text-primary"></i>
+                            </span>
+                    <h4>
+                                    <strong class="text-xs-center">Travel</strong>
+                                </h4>
+                    <p class="text-xs-center m-b-2">Enhances academic programs.</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 text-xs-center">
+                <div class="service-item">
+                    <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-cog fa-spin fa-stack-1x text-primary"></i>
+                            </span>
+                    <h4>
+                                    <strong class="text-xs-center">Support</strong>
+                                </h4>
+                    <p class="text-xs-center m-b-2">Provides upgrades for library and computer resources</p>
+
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 text-xs-center">
+                <div class="service-item">
+                    <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-users fa-stack-1x text-primary"></i>
+                            </span>
+                    <h4>
+                                    <strong class="text-xs-center">People</strong>
+                                </h4>
+                    <p class="text-xs-center m-b-2">Brings special speakers and performances to campus.</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 text-xs-center">
+                <div class="service-item">
+                    <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                            </span>
+                    <h4>
+                                    <strong class="text-xs-center">Research</strong>
+                                </h4>
+                    <p class="text-xs-center m-b-2">Funds student competitions and student research and so much more...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---TESTIMONIALS--->
+    <div id="student" class="container-fluid section-four">
+        <h1 class="text-xs-center p-t-3 p-b-1">Student Testimonials</h1>
+        <div class="container content">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="testimonials">
+                        <div class="active item">
+                            <blockquote>
+                                <p>“At Belmont University, I thrive as a student and leader on campus. I furthered my passion for music by becoming a member and leader of many music business organizations. Through these experiences, I have been able to learn from some of the most talented and top musicians, producers and songwriters in Nashville. Your contribution to my education does not go unnoticed nor is it taken for granted.”</p>
+                            </blockquote>
+                            <div class="carousel-info">
+                                <img alt="" src="img/stu-circ-1.png" class="pull-left">
+                                <div class="pull-left">
+                                    <span class="testimonials-name p-b-3"><strong>Kristoff</strong> 2016</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="testimonials">
+                        <div class="active item">
+                            <blockquote>
+                                <p>“Being able to surround myself with talented peers and incredible professors that encourage my dreams is the most humbling experience Belmont could have given me. I am so thankful to attend a school that has helped me grow spiritually and musically. anks to the generosity of others, here I am four years later, on the verge of graduation with a Bachelor of Science in Songwriting, and I could not be more ecstatic. It has been a great ride.”</p>
+                            </blockquote>
+                            <div class="carousel-info">
+                                <img alt="" src="img/stu-circ-3.png" class="pull-left">
+                                <div class="pull-left">
+                                    <span class="testimonials-name p-b-3"><strong>Allison</strong> 2016 </span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="testimonials">
+                        <div class="active item">
+                            <blockquote>
+                                <p>“Belmont has offered me wonderful ways to be involved with the community, expand my knowledge, and grow as both an individual and a leader. I cannot look toward the future without being overwhelmingly grateful for the ways in which my time at Belmont has enriched me and prepared me for a career in opera performance.”</p>
+                            </blockquote>
+                            <div class="carousel-info">
+                                <img alt="" src="img/stu-circ-2.png" class="pull-left">
+                                <div class="pull-left">
+                                    <span class="testimonials-name p-b-3"><strong>Caroline</strong> 2015</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
     <!---GIVE--->
-    <div id="give" class="container-fluid section-four">
-        <button class="btn btn-outlined btn-primary center-block">GIVE NOW</button>
+    <footer>
+        <div id="give" class="container-fluid section-five p-t-3">
+            <a href="https://form.jotform.com/60466441853155" target="_blank" class="btn btn-outlined btn-danger center-block" style="width: 120px;">GIVE NOW   
+        </a>
 
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img id="belmont-logo" class="img-fluid center-block" src="img/belmont-logo.png" alt="Belmont-Logo">
+                    </div>
+                    <p class="text-xs-center"><a href="http://www.belmont.edu/about/" target="_blank">About</a> | <a href="https://jobs.belmont.edu/" target="_blank">Jobs</a> | <a href="https://form.jotform.com/60466441853155" target="_blank">Give</a></p>
+                    <p class="text-xs-center">1900 Belmont Blvd. Nashville, TN 37212 | 615-460-5517</p>
+                </div>
+                <div class="col-md-12 text-xs-center m-b-3 m-r-2">
+                    <ul class="social-network social-circle">
+                        <li><a href="https://www.facebook.com/BelmontUniversity/" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/BelmontUniv" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://plus.google.com/+belmontuniversity" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
 
-
-
-    </div>
-
-
-
-
-
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script>
-        //NAV COLLAPSE
-        var nav = responsiveNav(".nav-collapse");
-    </script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script>
-        //SMOOTH SCROLL
-        $(function () {
-            $('a[href*="#"]:not([href="#"])').click(function () {
-                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    if (target.length) {
-                        $('html, body').animate({
-                            scrollTop: target.offset().top
-                        }, 1000);
-                        return false;
-                    }
-                }
+        //SMOOTH SCROLLING
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
             });
         });
     </script>
-    <script src="js/scripts.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js " integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7"></script>
+    <script src="js/responsive-nav.js"></script>
+    <script>
+        //NAV COLLAPSE
+        var nav = responsiveNav(".nav-collapse ");
+    </script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/scripts.js "></script>
 </body>
 
 </html>

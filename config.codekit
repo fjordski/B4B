@@ -42,24 +42,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/dot-pattern.png": {
+	"\/img\/cropped-favicon-1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 13080,
-		"inputAbbreviatedPath": "\/img\/dot-pattern.png",
-		"outputAbbreviatedPath": "\/img\/dot-pattern.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/hamburger.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4744,
-		"inputAbbreviatedPath": "\/img\/hamburger.png",
-		"outputAbbreviatedPath": "\/img\/hamburger.png",
+		"initialSize": 6203,
+		"inputAbbreviatedPath": "\/img\/cropped-favicon-1.png",
+		"outputAbbreviatedPath": "\/img\/cropped-favicon-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -75,49 +64,49 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/section-2-bg.png": {
+	"\/img\/stu-circ-1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 652984,
-		"inputAbbreviatedPath": "\/img\/section-2-bg.png",
-		"outputAbbreviatedPath": "\/img\/section-2-bg.png",
+		"initialSize": 163009,
+		"inputAbbreviatedPath": "\/img\/stu-circ-1.png",
+		"outputAbbreviatedPath": "\/img\/stu-circ-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/img\/student-1.jpg": {
-		"fileType": 16384,
+	"\/img\/stu-circ-2.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 82067,
-		"inputAbbreviatedPath": "\/img\/student-1.jpg",
-		"outputAbbreviatedPath": "\/img\/student-1.jpg",
+		"initialSize": 171035,
+		"inputAbbreviatedPath": "\/img\/stu-circ-2.png",
+		"outputAbbreviatedPath": "\/img\/stu-circ-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/img\/student-2.jpg": {
-		"fileType": 16384,
+	"\/img\/stu-circ-3.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 73279,
-		"inputAbbreviatedPath": "\/img\/student-2.jpg",
-		"outputAbbreviatedPath": "\/img\/student-2.jpg",
+		"initialSize": 221590,
+		"inputAbbreviatedPath": "\/img\/stu-circ-3.png",
+		"outputAbbreviatedPath": "\/img\/stu-circ-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/img\/student-3.jpg": {
-		"fileType": 16384,
+	"\/img\/testi-bg.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 90397,
-		"inputAbbreviatedPath": "\/img\/student-3.jpg",
-		"outputAbbreviatedPath": "\/img\/student-3.jpg",
+		"initialSize": 10553,
+		"inputAbbreviatedPath": "\/img\/testi-bg.png",
+		"outputAbbreviatedPath": "\/img\/testi-bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -128,12 +117,12 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/js\/jquery.counterup.min.js": {
+	"\/js\/jquery-3.0.0.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/jquery.counterup.min.js",
-		"outputAbbreviatedPath": "\/js\/min\/jquery.counterup.min-min.js",
+		"inputAbbreviatedPath": "\/js\/jquery-3.0.0.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/jquery-3.0.0.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -183,6 +172,22 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/scss\/_buttons.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_buttons.scss",
+		"outputAbbreviatedPath": "\/css\/_buttons.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/_media.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -194,40 +199,24 @@
 		"outputAbbreviatedPath": "\/css\/_media.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/_navigation.scss": {
+	"\/scss\/_testimonials.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/_navigation.scss",
-		"outputAbbreviatedPath": "\/css\/_navigation.css",
+		"inputAbbreviatedPath": "\/scss\/_testimonials.scss",
+		"outputAbbreviatedPath": "\/css\/_testimonials.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/scss\/_text.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/_text.scss",
-		"outputAbbreviatedPath": "\/css\/_text.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
@@ -242,9 +231,9 @@
 		"outputAbbreviatedPath": "\/css\/styles.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 1,
+		"shouldRunBless": 0,
 		"useLibsass": 0
 		}
 	},
@@ -256,7 +245,7 @@
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "bruins for bruins",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "harddrive_gray"
 	},
 "projectSettings": {
@@ -853,9 +842,9 @@
 	"sassCreateSourceMap": 0,
 	"sassDebugStyle": 0,
 	"sassDecimalPrecision": 10,
-	"sassOutputStyle": 0,
+	"sassOutputStyle": 3,
 	"sassUseLibsass": 0,
-	"shouldRunAutoprefixer": 0,
+	"shouldRunAutoprefixer": 1,
 	"shouldRunBless": 0,
 	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs, node_modules",
 	"slimAutoOutputPathEnabled": 1,
